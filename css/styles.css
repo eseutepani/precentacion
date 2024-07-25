@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #090c22;
+  color: #ece3e3;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   padding: 2em;
+}
+
+.brand {
+  margin-top: -7px;
+}
+
+.brand samp{
+  color: rgba(0, 247, 255, 0.877);
+}
+
+.menu{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.menu li {
+  list-style: none;
+}
+
+.menu a{
+  color: #06ccabd5;
+  text-decoration: none;
+  padding: 10px, 20px;
+}
+
+.menu .active {
+  color: rgba(16, 121, 219, 0.76);
+}
+
+.menu a:hover {
+  background-color: rgba(0, 247, 255, 0.548);
+  color: #161a3b;
+  transition: ease-in .5s;
+}
+
+.main {
+ width: 80vw;
+ height: 80vh;
+ margin: 0 auto;
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ align-items: center;
+}
+
+h1{
+  font-size: 2em;
+}
+
+h1 span{
+  color: rgb(0, 119, 255);
+}
+
+.download-cv{
+  padding: 30px 40px;
+  background-color: rgb(0, 225, 255);
+  border: none;
+  border-radius: 40px;
+  margin-top: 30px;
+  box-shadow: 4px 6px 18px -5px rgb(7, 48, 195);
+}
+
+.download-cv:hover {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+main img{
+  width: 300px;
+  border: 7px solid rgb(0, 255, 200);
+  height: 520px;
+  margin-left: 25px; 
+}
+
+.about{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+}
+
+.about img{
+  width: 100%;
+  grid-column: 1/5;
+}
+
+.about-info{
+  grid-column: 5/10;
+  padding: 2em;
+}
+
+.about-info h2{
+  font-size: 2em;
+  color: #191c32;
+}
+
+.divider{
+  height: 4px;
+  width: 60px;
+  background-color: rgb(0, 217, 255);
+  margin-top: 5px;
+  margin-bottom: 2em;
+  border-radius: 2px;
+}
+
+.about p{
+  margin-bottom: 1em;
+}
+
+.education{
+   background-color: #191c32;
+   color: #fff;
+}
+
+.education h2{
+ color: #fff;
+}
+
+.container{
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 15px;
+  width: 350px;
+  margin-bottom: 12px;
+  box-shadow: 4px 6px 18px -5px rgba(102, 231, 200, 0.69);
+}
+
+.experiencia{
+  background-color: #191c32;
+  color: #fff;
+}
+
